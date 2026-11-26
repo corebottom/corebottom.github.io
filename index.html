@@ -1,0 +1,1401 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>女性成长影像_记录真实自我_女性力量视频社区</title>
+<meta name="description" content="她光影像官方网站，专注女性成长与自我表达的原创视频社区，汇聚数百位女性创作者，用高清影像记录真实、温暖、有力量的故事。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c04a6e'/%3E%3Cpath d='M20 44c0-14 10-24 24-24 0 14-10 24-24 24z' fill='%23ffe3ec'/%3E%3Ccircle cx='24' cy='40' r='3' fill='%23c04a6e'/%3E%3C/svg%3E">
+<style>
+:root{
+  --sgr-bg:#fdf8f9;
+  --sgr-ink:#2a1c22;
+  --sgr-ink-soft:#6b5560;
+  --sgr-brand:#c04a6e;
+  --sgr-brand-deep:#8f2c4c;
+  --sgr-brand-soft:#f7dde6;
+  --sgr-line:#ecd7df;
+  --sgr-card:#ffffff;
+  --sgr-mint:#3f8f7e;
+  --sgr-gold:#c9973f;
+  --sgr-radius:18px;
+  --sgr-shadow:0 18px 40px -22px rgba(90,30,55,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--sgr-bg);
+  color:var(--sgr-ink);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul,ol{margin:0;padding:0;list-style:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0}
+.sgr-wrap{width:min(1180px,92vw);margin:0 auto}
+.sgr-anchor{scroll-margin-top:132px}
+
+/* ===== 吸顶区 ===== */
+.sgr-sticky-top{position:sticky;top:0;z-index:120}
+.sgr-announce{
+  background:linear-gradient(90deg,#8f2c4c,#c04a6e 55%,#d96a8a);
+  color:#fff6f9;
+  font-size:13.5px;
+  letter-spacing:.02em;
+}
+.sgr-announce-inner{
+  display:flex;align-items:center;gap:12px;
+  padding:9px 0;
+  flex-wrap:wrap;
+}
+.sgr-announce-tag{
+  background:rgba(255,255,255,.2);
+  border:1px solid rgba(255,255,255,.45);
+  border-radius:999px;
+  padding:1px 10px;
+  font-size:12px;
+  white-space:nowrap;
+}
+.sgr-announce-text{flex:1;min-width:220px}
+.sgr-announce-close{
+  color:#ffe6ee;font-size:18px;line-height:1;
+  padding:2px 6px;border-radius:8px;
+}
+.sgr-announce-close:hover{background:rgba(255,255,255,.18)}
+
+.sgr-header{
+  background:rgba(253,248,249,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--sgr-line);
+}
+.sgr-header-inner{
+  display:flex;align-items:center;gap:22px;
+  padding:12px 0;
+}
+.sgr-logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.sgr-logo-mark{
+  width:40px;height:40px;border-radius:12px;
+  background:radial-gradient(circle at 30% 25%,#e58aa6,#a83358);
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:19px;
+  box-shadow:0 8px 18px -8px rgba(160,40,85,.8);
+}
+.sgr-logo-text{font-size:19px;font-weight:800;letter-spacing:.06em}
+.sgr-logo-sub{font-size:11px;color:var(--sgr-ink-soft);letter-spacing:.22em;display:block;margin-top:-4px}
+.sgr-nav{display:flex;gap:20px;flex-wrap:wrap;flex:1}
+.sgr-nav a{
+  font-size:14.5px;color:var(--sgr-ink-soft);
+  padding:6px 2px;position:relative;transition:color .2s;
+}
+.sgr-nav a::after{
+  content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;
+  background:var(--sgr-brand);transition:right .25s;border-radius:2px;
+}
+.sgr-nav a:hover{color:var(--sgr-brand-deep)}
+.sgr-nav a:hover::after{right:0}
+.sgr-header-tools{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.sgr-search{
+  display:flex;align-items:center;gap:6px;
+  background:#fff;border:1px solid var(--sgr-line);
+  border-radius:999px;padding:6px 12px;min-width:210px;
+  transition:box-shadow .2s,border-color .2s;
+}
+.sgr-search:focus-within{border-color:var(--sgr-brand);box-shadow:0 0 0 3px rgba(192,74,110,.12)}
+.sgr-search input{
+  border:none;outline:none;font-size:14px;width:100%;background:transparent;color:var(--sgr-ink);
+}
+.sgr-search input::placeholder{color:#b9a3ad}
+.sgr-search-btn{color:var(--sgr-brand);font-size:15px}
+.sgr-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  border-radius:999px;font-size:14px;font-weight:600;
+  padding:9px 20px;transition:transform .18s,box-shadow .2s,background .2s;
+}
+.sgr-btn:hover{transform:translateY(-1px)}
+.sgr-btn-primary{background:var(--sgr-brand);color:#fff;box-shadow:0 10px 22px -12px rgba(160,40,85,.9)}
+.sgr-btn-primary:hover{background:var(--sgr-brand-deep)}
+.sgr-btn-ghost{border:1px solid var(--sgr-brand);color:var(--sgr-brand-deep)}
+.sgr-btn-ghost:hover{background:var(--sgr-brand-soft)}
+.sgr-menu-toggle{display:none;font-size:22px;color:var(--sgr-brand-deep);padding:4px 8px}
+
+.sgr-search-feedback{
+  display:none;
+  background:#fff3f7;border:1px solid var(--sgr-line);
+  color:var(--sgr-brand-deep);font-size:13px;
+  border-radius:12px;padding:8px 14px;margin:0 auto 12px;
+  width:min(1180px,92vw);
+}
+.sgr-search-feedback.is-on{display:block}
+
+/* ===== 首屏（左文右侧大图与数据条） ===== */
+.sgr-hero{padding:52px 0 44px}
+.sgr-hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0,6fr) minmax(0,4fr);
+  gap:46px;align-items:center;
+}
+.sgr-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;letter-spacing:.2em;color:var(--sgr-brand-deep);
+  background:var(--sgr-brand-soft);border-radius:999px;padding:5px 14px;
+  margin-bottom:18px;
+}
+.sgr-hero h1{
+  font-size:clamp(30px,4.4vw,52px);
+  letter-spacing:.01em;
+  color:var(--sgr-ink);
+}
+.sgr-hero h1 em{
+  font-style:normal;color:var(--sgr-brand);
+  background:linear-gradient(180deg,transparent 68%,#f8ccd9 68%);
+}
+.sgr-hero-lead{
+  margin-top:18px;font-size:16px;color:var(--sgr-ink-soft);max-width:33em;
+}
+.sgr-hero-desc{
+  margin-top:14px;font-size:14.5px;color:var(--sgr-ink-soft);
+  border-left:3px solid var(--sgr-brand-soft);padding-left:14px;
+}
+.sgr-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.sgr-hero-stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;margin-top:30px;
+}
+.sgr-stat{
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:14px;padding:14px 16px;
+}
+.sgr-stat b{display:block;font-size:23px;color:var(--sgr-brand-deep);letter-spacing:.02em}
+.sgr-stat span{font-size:12.5px;color:var(--sgr-ink-soft)}
+.sgr-hero-visual{position:relative}
+.sgr-hero-visual .sgr-hero-figure{
+  border-radius:24px;overflow:hidden;box-shadow:var(--sgr-shadow);
+  border:1px solid #f0dbe3;background:#fff;
+}
+.sgr-hero-visual img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.sgr-hero-badge{
+  position:absolute;left:-14px;bottom:26px;
+  background:#fff;border-radius:16px;padding:12px 16px;
+  box-shadow:0 16px 34px -18px rgba(90,30,55,.5);
+  border:1px solid var(--sgr-line);
+  font-size:12.5px;color:var(--sgr-ink-soft);max-width:200px;
+  line-height:1.55;
+}
+.sgr-hero-badge b{display:block;color:var(--sgr-brand-deep);font-size:15px;margin-bottom:2px}
+
+/* ===== 通用 section ===== */
+.sgr-section{padding:52px 0}
+.sgr-section-head{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  gap:18px;flex-wrap:wrap;margin-bottom:26px;
+}
+.sgr-section-head h2{
+  font-size:clamp(22px,2.6vw,30px);letter-spacing:.01em;
+}
+.sgr-section-head h2 span{color:var(--sgr-brand)}
+.sgr-section-sub{font-size:14px;color:var(--sgr-ink-soft);max-width:46em;margin-top:6px}
+.sgr-kicker{
+  font-size:12px;letter-spacing:.24em;color:var(--sgr-brand);
+  font-weight:700;margin-bottom:8px;display:block;
+}
+.sgr-alt{background:linear-gradient(180deg,#fbeef3,#fdf8f9)}
+
+/* ===== 关键词解析（长文） ===== */
+.sgr-explain{
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:22px;padding:34px;box-shadow:var(--sgr-shadow);
+}
+.sgr-explain h3{font-size:18px;margin:26px 0 10px;color:var(--sgr-brand-deep)}
+.sgr-explain h3:first-of-type{margin-top:6px}
+.sgr-explain p{font-size:15px;color:var(--sgr-ink-soft);margin-bottom:12px}
+.sgr-explain strong{color:var(--sgr-ink)}
+.sgr-explain-grid{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:10px 30px;
+}
+.sgr-quote{
+  border-left:4px solid var(--sgr-brand);background:#fdf1f5;
+  padding:14px 18px;border-radius:0 12px 12px 0;
+  font-size:14.5px;color:var(--sgr-brand-deep);margin:18px 0;
+}
+
+/* ===== 视频区（单列图文列表） ===== */
+.sgr-video-list{display:flex;flex-direction:column;gap:20px}
+.sgr-video-item{
+  display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);
+  gap:22px;background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:var(--sgr-radius);padding:18px;transition:box-shadow .22s,transform .22s;
+}
+.sgr-video-item:hover{box-shadow:var(--sgr-shadow);transform:translateY(-2px)}
+.sgr-video-thumb{
+  border-radius:14px;overflow:hidden;position:relative;background:#f5e4ea;
+}
+.sgr-video-thumb img{width:100%;height:100%;aspect-ratio:16/9;object-fit:cover}
+.sgr-video-thumb .play{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(40,10,25,0),rgba(40,10,25,.35));
+  color:#fff;font-size:26px;opacity:.9;transition:opacity .2s;
+}
+.sgr-video-item:hover .play{opacity:1}
+.sgr-video-body h3{font-size:18px;margin-bottom:6px}
+.sgr-video-body h3 a:hover{color:var(--sgr-brand-deep)}
+.sgr-video-body p{font-size:14px;color:var(--sgr-ink-soft);margin-bottom:10px}
+.sgr-tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.sgr-tag{
+  font-size:12px;color:var(--sgr-brand-deep);background:var(--sgr-brand-soft);
+  border-radius:999px;padding:2px 10px;
+}
+.sgr-tag.sgr-tag-alt{background:#e7f3ef;color:#2f6f61}
+.sgr-video-meta{
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+  font-size:12.5px;color:var(--sgr-ink-soft);
+}
+.sgr-video-meta .author{color:var(--sgr-brand-deep);font-weight:600}
+.sgr-video-ops{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.sgr-op{
+  font-size:12.5px;border:1px solid var(--sgr-line);border-radius:999px;
+  padding:4px 12px;color:var(--sgr-ink-soft);transition:all .18s;background:#fff;
+}
+.sgr-op:hover{border-color:var(--sgr-brand);color:var(--sgr-brand-deep)}
+.sgr-op.is-active{background:var(--sgr-brand);border-color:var(--sgr-brand);color:#fff}
+.sgr-op.is-fav{background:#ffeaf1;border-color:#f0a8c0;color:var(--sgr-brand-deep)}
+
+/* ===== 专题 ===== */
+.sgr-special-grid{
+  display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);
+  gap:22px;
+}
+.sgr-special-main{
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:22px;overflow:hidden;box-shadow:var(--sgr-shadow);
+  display:flex;flex-direction:column;
+}
+.sgr-special-main img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.sgr-special-main-body{padding:20px 22px 24px}
+.sgr-status{
+  display:inline-block;font-size:12px;border-radius:999px;padding:2px 10px;
+  background:#e7f3ef;color:#2f6f61;margin-bottom:8px;
+}
+.sgr-status.sgr-status-hot{background:#ffeef3;color:#b53b62}
+.sgr-special-main h3{font-size:20px;margin-bottom:6px}
+.sgr-special-main p{font-size:14px;color:var(--sgr-ink-soft)}
+.sgr-special-list{display:flex;flex-direction:column;gap:16px}
+.sgr-special-card{
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:16px;padding:16px 18px;transition:border-color .2s;
+}
+.sgr-special-card:hover{border-color:#e6b6c8}
+.sgr-special-card h3{font-size:16px}
+.sgr-special-card p{font-size:13.5px;color:var(--sgr-ink-soft);margin:4px 0 8px}
+.sgr-mini-list li{
+  font-size:13px;color:var(--sgr-ink-soft);padding:5px 0;
+  border-bottom:1px dashed var(--sgr-line);
+}
+.sgr-mini-list li:last-child{border-bottom:none}
+.sgr-mini-list li::before{content:"▸";color:var(--sgr-brand);margin-right:6px}
+
+/* ===== 作者矩阵（双列简介） ===== */
+.sgr-authors{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;
+}
+.sgr-author{
+  display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:18px;padding:18px;transition:transform .2s;
+}
+.sgr-author:hover{transform:translateY(-2px)}
+.sgr-avatar{
+  width:64px;height:64px;border-radius:50%;display:grid;place-items:center;
+  font-weight:800;font-size:22px;color:#fff;letter-spacing:.04em;
+}
+.sgr-avatar-1{background:linear-gradient(135deg,#c04a6e,#e58aa6)}
+.sgr-avatar-2{background:linear-gradient(135deg,#3f8f7e,#7cc0b0)}
+.sgr-avatar-3{background:linear-gradient(135deg,#8a6bb8,#c1a8e0)}
+.sgr-avatar-4{background:linear-gradient(135deg,#c9973f,#ecc57e)}
+.sgr-avatar-5{background:linear-gradient(135deg,#3f6f8f,#7ba8c4)}
+.sgr-author h3{font-size:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.sgr-author h3 span{font-size:12px;font-weight:400;color:var(--sgr-brand-deep);background:var(--sgr-brand-soft);border-radius:999px;padding:1px 8px}
+.sgr-author .sgr-author-data{font-size:12.5px;color:var(--sgr-ink-soft);margin:2px 0 6px}
+.sgr-author p{font-size:13px;color:var(--sgr-ink-soft)}
+.sgr-author-more{
+  font-size:12.5px;color:var(--sgr-brand-deep);margin-top:8px;display:inline-block;
+  border-bottom:1px dashed #e6b6c8;
+}
+
+/* ===== 评价 + 榜单 ===== */
+.sgr-eval-grid{
+  display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;
+}
+.sgr-eval-list{display:flex;flex-direction:column;gap:14px}
+.sgr-eval{
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:16px;padding:14px 18px;
+}
+.sgr-eval-head{display:flex;align-items:center;gap:10px;margin-bottom:6px;flex-wrap:wrap}
+.sgr-eval-head b{font-size:14px}
+.sgr-eval-head span{font-size:12px;color:var(--sgr-ink-soft)}
+.sgr-stars{color:#d98aa5;font-size:12.5px;letter-spacing:.08em}
+.sgr-eval p{font-size:13.5px;color:var(--sgr-ink-soft)}
+.sgr-rank{
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:20px;padding:20px 22px;
+}
+.sgr-rank h3{font-size:17px;margin-bottom:12px}
+.sgr-rank-tabs{display:flex;gap:8px;margin-bottom:14px}
+.sgr-rank-tab{
+  font-size:13px;padding:4px 12px;border-radius:999px;
+  border:1px solid var(--sgr-line);color:var(--sgr-ink-soft);
+}
+.sgr-rank-tab.is-on{background:var(--sgr-brand);border-color:var(--sgr-brand);color:#fff}
+.sgr-rank-list li{
+  display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:10px;align-items:center;
+  font-size:13.5px;padding:8px 0;border-bottom:1px dashed var(--sgr-line);
+}
+.sgr-rank-list li:last-child{border-bottom:none}
+.sgr-rank-no{font-weight:800;color:#d3b3c0;font-style:italic}
+.sgr-rank-list li:nth-child(1) .sgr-rank-no{color:var(--sgr-brand)}
+.sgr-rank-list li:nth-child(2) .sgr-rank-no{color:#cf8a63}
+.sgr-rank-list li:nth-child(3) .sgr-rank-no{color:#9a8f6a}
+.sgr-rank-list small{color:var(--sgr-ink-soft);font-size:12px}
+
+/* ===== 动态 / 合作 / FAQ ===== */
+.sgr-three{
+  display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1.15fr);
+  gap:22px;align-items:start;
+}
+.sgr-panel{
+  background:var(--sgr-card);border:1px solid var(--sgr-line);
+  border-radius:20px;padding:22px;
+}
+.sgr-panel h2{font-size:18px;margin-bottom:4px}
+.sgr-panel .sgr-panel-sub{font-size:12.5px;color:var(--sgr-ink-soft);margin-bottom:14px}
+.sgr-news li{padding:10px 0;border-bottom:1px dashed var(--sgr-line)}
+.sgr-news li:last-child{border-bottom:none}
+.sgr-news time{font-size:12px;color:var(--sgr-brand);letter-spacing:.04em}
+.sgr-news h3{font-size:14.5px;margin:2px 0 2px}
+.sgr-news p{font-size:12.5px;color:var(--sgr-ink-soft)}
+.sgr-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.sgr-partner{
+  border:1px dashed var(--sgr-line);border-radius:12px;padding:12px;
+  font-size:13px;color:var(--sgr-ink-soft);text-align:center;
+  background:#fffafc;
+}
+.sgr-partner b{display:block;color:var(--sgr-ink);font-size:13.5px;margin-bottom:2px}
+.sgr-faq details{
+  border-bottom:1px dashed var(--sgr-line);padding:10px 0;
+}
+.sgr-faq details:last-child{border-bottom:none}
+.sgr-faq summary{
+  cursor:pointer;font-size:14px;font-weight:600;list-style:none;
+  display:flex;justify-content:space-between;gap:10px;align-items:center;
+}
+.sgr-faq summary::-webkit-details-marker{display:none}
+.sgr-faq summary::after{content:"+";color:var(--sgr-brand);font-weight:800;font-size:16px}
+.sgr-faq details[open] summary::after{content:"–"}
+.sgr-faq p{font-size:13px;color:var(--sgr-ink-soft);padding-top:8px}
+
+/* ===== 投稿 CTA ===== */
+.sgr-cta{
+  background:linear-gradient(120deg,#8f2c4c,#c04a6e 60%,#d96a8a);
+  border-radius:26px;color:#fff6f9;padding:38px 34px;
+  display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);
+  gap:26px;align-items:center;box-shadow:0 26px 50px -30px rgba(140,35,75,.9);
+}
+.sgr-cta h2{font-size:clamp(21px,2.4vw,27px);margin-bottom:8px}
+.sgr-cta p{font-size:14px;color:#ffdfe9;max-width:36em}
+.sgr-cta-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.sgr-btn-light{background:#fff6f9;color:var(--sgr-brand-deep)}
+.sgr-btn-light:hover{background:#ffe6ee}
+.sgr-btn-line{border:1px solid rgba(255,255,255,.7);color:#fff6f9}
+.sgr-btn-line:hover{background:rgba(255,255,255,.14)}
+
+/* ===== 页脚 ===== */
+.sgr-footer{background:#2a1c22;color:#e8d5dd;padding:46px 0 26px;margin-top:30px}
+.sgr-footer-grid{
+  display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));
+  gap:30px;
+}
+.sgr-footer h3{font-size:14.5px;color:#fff;margin-bottom:10px;letter-spacing:.05em}
+.sgr-footer p,.sgr-footer li{font-size:13px;color:#c4aab4}
+.sgr-footer li{padding:3px 0}
+.sgr-footer li a:hover{color:#fff}
+.sgr-footer .sgr-logo-text{color:#fff}
+.sgr-footer .sgr-logo-sub{color:#c4aab4}
+.sgr-footer-bottom{
+  margin-top:30px;padding-top:16px;border-top:1px solid #453440;
+  font-size:12.5px;color:#a38994;display:flex;justify-content:space-between;
+  gap:12px;flex-wrap:wrap;
+}
+
+/* ===== 弹窗 & toast ===== */
+.sgr-modal-mask{
+  position:fixed;inset:0;background:rgba(40,16,28,.5);
+  display:none;align-items:center;justify-content:center;z-index:300;padding:20px;
+}
+.sgr-modal-mask.is-open{display:flex}
+.sgr-modal{
+  background:#fff;border-radius:20px;width:min(520px,100%);
+  padding:26px;box-shadow:0 30px 70px -30px rgba(0,0,0,.5);max-height:86vh;overflow:auto;
+}
+.sgr-modal h3{font-size:19px;margin-bottom:6px;color:var(--sgr-brand-deep)}
+.sgr-modal .sgr-modal-sub{font-size:13px;color:var(--sgr-ink-soft);margin-bottom:16px}
+.sgr-modal label{display:block;font-size:13px;margin-bottom:12px;color:var(--sgr-ink-soft)}
+.sgr-modal input,.sgr-modal textarea{
+  display:block;width:100%;margin-top:5px;border:1px solid var(--sgr-line);
+  border-radius:10px;padding:9px 12px;font-size:14px;font-family:inherit;outline:none;
+}
+.sgr-modal input:focus,.sgr-modal textarea:focus{border-color:var(--sgr-brand)}
+.sgr-modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:8px}
+.sgr-toast{
+  position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);
+  background:#3a222c;color:#fff6f9;font-size:13.5px;
+  padding:10px 20px;border-radius:999px;opacity:0;pointer-events:none;
+  transition:opacity .25s,transform .25s;z-index:400;
+}
+.sgr-toast.is-on{opacity:1;transform:translate(-50%,0)}
+.sgr-top-btn{
+  position:fixed;right:22px;bottom:26px;width:44px;height:44px;
+  border-radius:50%;background:var(--sgr-brand);color:#fff;
+  display:grid;place-items:center;font-size:18px;
+  box-shadow:0 14px 30px -14px rgba(160,40,85,.9);
+  opacity:0;pointer-events:none;transition:opacity .25s;z-index:250;
+}
+.sgr-top-btn.is-on{opacity:1;pointer-events:auto}
+
+/* ===== 响应式 ===== */
+@media (max-width:960px){
+  .sgr-hero-grid{grid-template-columns:minmax(0,1fr);gap:30px}
+  .sgr-hero-visual{max-width:440px;margin:0 auto}
+  .sgr-special-grid{grid-template-columns:minmax(0,1fr)}
+  .sgr-eval-grid{grid-template-columns:minmax(0,1fr)}
+  .sgr-three{grid-template-columns:minmax(0,1fr)}
+  .sgr-footer-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .sgr-explain-grid{grid-template-columns:minmax(0,1fr)}
+  .sgr-cta{grid-template-columns:minmax(0,1fr)}
+  .sgr-cta-actions{justify-content:flex-start}
+}
+@media (max-width:760px){
+  .sgr-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    background:#fff;border-bottom:1px solid var(--sgr-line);
+    flex-direction:column;gap:0;padding:8px 4vw 14px;
+    box-shadow:0 20px 30px -24px rgba(90,30,55,.5);
+  }
+  .sgr-nav.is-open{display:flex}
+  .sgr-nav a{padding:11px 6px;border-bottom:1px dashed var(--sgr-line)}
+  .sgr-nav a::after{display:none}
+  .sgr-menu-toggle{display:block}
+  .sgr-header-inner{position:relative;flex-wrap:wrap}
+  .sgr-search{min-width:0;flex:1;order:3;width:100%}
+  .sgr-header-tools{margin-left:auto}
+  .sgr-authors{grid-template-columns:minmax(0,1fr)}
+  .sgr-video-item{grid-template-columns:minmax(0,1fr)}
+  .sgr-hero-stats{grid-template-columns:minmax(0,1fr)}
+  .sgr-footer-grid{grid-template-columns:minmax(0,1fr)}
+  .sgr-explain{padding:22px 18px}
+  .sgr-hero-badge{left:8px;bottom:10px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- ========== S1 公告条 + 页头（一同吸顶） ========== -->
+<div class="sgr-sticky-top">
+  <div class="sgr-announce" id="sgrAnnounce">
+    <div class="sgr-wrap sgr-announce-inner">
+      <span class="sgr-announce-tag">官方发布</span>
+      <span class="sgr-announce-text">11月新专题《她的第一次》上线 4 集 · 冬季「她光创作者扶持计划」报名开启 · 高清片库新增 36 部原创作品</span>
+      <button class="sgr-announce-close" id="sgrAnnounceClose" aria-label="关闭公告">×</button>
+    </div>
+  </div>
+
+  <header class="sgr-header" id="sgrTop">
+    <div class="sgr-wrap sgr-header-inner">
+      <a class="sgr-logo" href="#sgrHero">
+        <span class="sgr-logo-mark">她</span>
+        <span>
+          <span class="sgr-logo-text">她光影像</span>
+          <span class="sgr-logo-sub">SHEGLOW OFFICIAL</span>
+        </span>
+      </a>
+
+      <nav class="sgr-nav" id="sgrNav" aria-label="主导航">
+        <a href="#sgrHero">首页</a>
+        <a href="#sgrVideo">精选视频</a>
+        <a href="#sgrSpecial">专题企划</a>
+        <a href="#sgrAuthors">创作者</a>
+        <a href="#sgrEval">口碑评价</a>
+        <a href="#sgrAssist">企业动态</a>
+        <a href="#sgrSubmit">投稿合作</a>
+      </nav>
+
+      <div class="sgr-header-tools">
+        <div class="sgr-search">
+          <input type="search" id="sgrSearchInput" placeholder="搜索视频、创作者、专题" aria-label="站内搜索">
+          <button class="sgr-search-btn" id="sgrSearchBtn" aria-label="搜索">⌕</button>
+        </div>
+        <button class="sgr-btn sgr-btn-primary" id="sgrSubmitBtn">投稿</button>
+        <button class="sgr-menu-toggle" id="sgrMenuToggle" aria-label="展开导航" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="sgr-search-feedback" id="sgrSearchFeedback" role="status"></div>
+
+<!-- ========== S2 品牌首屏 ========== -->
+<main>
+<section class="sgr-hero sgr-anchor" id="sgrHero">
+  <div class="sgr-wrap sgr-hero-grid">
+    <div>
+      <span class="sgr-hero-eyebrow">官方网站 · 女性成长影像社区</span>
+      <h1>女性成长影像<em>女性力量</em>视频社区</h1>
+      <p class="sgr-hero-lead">她光影像是深耕女性成长与自我表达领域的原创视频品牌，以高清影像记录真实生活、专业经验与温柔坚持，为创作者搭建值得信赖的内容生态。</p>
+      <p class="sgr-hero-desc">作为女性成长视频赛道持续运营七年的企业级平台，我们把镜头交给普通女性：她们的职场第一次、母亲的深夜厨房、创业者的凌晨四点，都被认真拍摄、正版授权、长期存档，成为可被反复观看的成长样本。</p>
+      <div class="sgr-hero-actions">
+        <a class="sgr-btn sgr-btn-primary" href="#sgrVideo">进入精选片库</a>
+        <a class="sgr-btn sgr-btn-ghost" href="#sgrAuthors">认识创作者</a>
+        <button class="sgr-btn sgr-btn-ghost" id="sgrShareHero">分享本页</button>
+      </div>
+      <div class="sgr-hero-stats">
+        <div class="sgr-stat"><b>2,180<span style="font-size:14px">+</span></b><span>原创高清作品持续运营</span></div>
+        <div class="sgr-stat"><b>316<span style="font-size:14px">位</span></b><span>签约与入驻创作者</span></div>
+        <div class="sgr-stat"><b>4,800<span style="font-size:14px">万</span></b><span>累计播放与口碑互动</span></div>
+      </div>
+    </div>
+
+    <div class="sgr-hero-visual">
+      <figure class="sgr-hero-figure" style="margin:0">
+        <img alt="女性创作者手持相机在窗边拍摄晨光中的手写信" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 600'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23fdeef3'/%3E%3Cstop offset='1' stop-color='%23f3c9d7'/%3E%3C/linearGradient%3E%3ClinearGradient id='win' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23fff6e8'/%3E%3Cstop offset='1' stop-color='%23ffd9a8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='600' fill='url(%23bg)'/%3E%3Crect x='46' y='58' width='230' height='300' rx='12' fill='url(%23win)' opacity='.9'/%3E%3Crect x='46' y='58' width='230' height='300' rx='12' fill='none' stroke='%23c08096' stroke-width='4'/%3E%3Cline x1='161' y1='58' x2='161' y2='358' stroke='%23c08096' stroke-width='4'/%3E%3Cline x1='46' y1='208' x2='276' y2='208' stroke='%23c08096' stroke-width='4'/%3E%3Ccircle cx='330' cy='150' r='58' fill='%23c04a6e' opacity='.75'/%3E%3Ccircle cx='330' cy='150' r='30' fill='%23ffe3ec'/%3E%3Crect x='280' y='250' width='140' height='96' rx='10' fill='%23ffffff' opacity='.85'/%3E%3Crect x='296' y='272' width='108' height='8' rx='4' fill='%23c04a6e' opacity='.6'/%3E%3Crect x='296' y='292' width='84' height='8' rx='4' fill='%23c04a6e' opacity='.4'/%3E%3Crect x='296' y='312' width='96' height='8' rx='4' fill='%23c04a6e' opacity='.3'/%3E%3Cpath d='M120 420 q40 -70 90 -20 q30 -60 90 10 l0 0 l0 120 l-180 0 z' fill='%238f2c4c' opacity='.85'/%3E%3Ccircle cx='210' cy='410' r='34' fill='%23f7dde6'/%3E%3Ccircle cx='210' cy='410' r='18' fill='%23c04a6e'/%3E%3Crect x='150' y='470' width='120' height='14' rx='7' fill='%23fff6f9' opacity='.8'/%3E%3Crect x='170' y='496' width='80' height='10' rx='5' fill='%23fff6f9' opacity='.6'/%3E%3C/svg%3E" width="480" height="600">
+      </figure>
+      <div class="sgr-hero-badge"><b>本期主推</b>《她的第一次》第 3 集：第一次独自旅行，在 3 座城市拍下 47 段素材。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 关键词解析（长文，800字以上） ========== -->
+<section class="sgr-section sgr-anchor" id="sgrExplain">
+  <div class="sgr-wrap">
+    <div class="sgr-section-head">
+      <div>
+        <span class="sgr-kicker">DEEP READING</span>
+        <h2>关于「女性成长影像」的<span>深度解读</span></h2>
+        <p class="sgr-section-sub">我们用四年时间反复回答一个问题：一段真实、温暖、有力量的影像，究竟能为一个正在成长的女性带来什么？这份解读，也是她光影像作为企业长期坚持的内容方法论。</p>
+      </div>
+    </div>
+
+    <article class="sgr-explain">
+      <div class="sgr-explain-grid">
+        <div>
+          <h3>一、为什么我们把镜头对准「成长」而不是「完美」</h3>
+          <p>在女性成长影像这个垂直领域做了七年，我们最常看到的误区是：把女性内容做成精修样板间。灯光、妆容、台词一切完美，却让人看完没有勇气迈出下一步。她光影像从 2019 年起调整了选题标准——<strong>只拍有过程、有犹豫、有失败痕迹的故事</strong>。一位 34 岁转行做烘焙的单亲妈妈，镜头里保留了她第一次出摊时找错零钱的窘迫；一位乡村女教师拍下自己被学生反问「老师你怎么也不懂」的瞬间。这些不完美的片段，反而是播放完成率最高、评论区最长的那一类内容。</p>
+          <p>平台内部把这套方法称为「成长可见性」：观众需要看到一个人从不会到会的路径，而不是看到结果。因此每一支视频都必须包含三个要素——具体的起点、可复制的动作、真实的成本。起点让观众产生代入，动作让人愿意模仿，成本则避免制造焦虑。这也是我们对所有入驻创作者的基础要求，不论她是拍职场、拍运动、拍手作还是拍乡野生活。</p>
+        </div>
+        <div>
+          <h3>二、内容生态如何让创作者被长期看见</h3>
+          <p>很多女性创作者的问题不是不会拍，而是拍完没人看。她光影像作为持续运营的企业平台，搭建了三层支持：第一层是<strong>选题共研</strong>，每月两场线上选题会，由编辑部与资深创作者一起拆解当月的真实需求；第二层是<strong>制作支持</strong>，从收音、补光到剪辑节奏，提供标准化清单与一对一指导；第三层是<strong>分发与存档</strong>，优质作品进入高清片库，按主题归档，长期可检索、可引用。</p>
+          <p>我们不追求一次性爆款。数据上看，平台播放量排名前 20% 的作品中，有 63% 是发布三个月后才逐步起量的「慢热内容」。这让我们确信，女性成长类影像的价值需要用更长的周期衡量。因此内容生态里刻意保留了大量专业向、经验向的中长视频，它们或许不会在第一周冲上热门，却会在半年后持续被搜索、被收藏、被转给需要的朋友。</p>
+        </div>
+        <div>
+          <h3>三、从个人记录到社会价值：影像的公共性</h3>
+          <p>女性成长影像的社会意义，往往在拍摄之外显现。2023 年起，她光影像与多个公益机构合作，把创作者拍摄的职场经验、育儿实录、健康科普整理为可免费取用的影像包，供学校、社区与职场培训使用。一位参与项目的创作者说，她从没想过自己拍的一段「如何跟上级谈加薪」的视频，会被三家企业拿去做内部分享材料。这正是我们坚持<strong>原创、正版、高清</strong>三条底线的意义：内容要经得起被反复使用与检验。</p>
+          <p>我们也把评价权交给社区。每条视频下方都有多维评分——真实度、可学性、情绪分寸。低分作品不会被打压，但会被提示补充说明。这套机制让平台口碑建立在具体作品之上，而不是宣传口号之上。用户至上是笨办法，却是唯一可持续的办法。</p>
+          <div class="sgr-quote">我们不生产「完美女性」的样本，只保存真实成长的过程。前者让人仰望，后者让人出发。</div>
+        </div>
+        <div>
+          <h3>四、面向未来：让更多元的声音进入镜头</h3>
+          <p>接下来一年，她光影像将把创作扶持计划扩展到更多元的群体：全职照护者、重返职场的女性、县域小微创业者、女性手艺人与女性运动员。我们相信包容不是一句姿态，而是排期表上的具体位置——每季度至少 30% 的扶持名额预留给此前没有影像经验的素人创作者，并提供完整的拍摄培训与设备支持。</p>
+          <p>同时，平台会上线「成长档案」功能，把同一创作者不同年份的作品串成时间线，让观众看到她如何一步步走出自己的路。对一家深耕垂直领域的内容企业来说，这既是产品创新，也是社会责任：我们保存的不只是视频，而是很多普通女性真实存在过、努力过的证据。若你也在记录，欢迎通过投稿入口加入我们，一起把这份影像档案做得更厚一点。</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ========== S3 精选视频（单列图文列表） ========== -->
+<section class="sgr-section sgr-alt sgr-anchor" id="sgrVideo">
+  <div class="sgr-wrap">
+    <div class="sgr-section-head">
+      <div>
+        <span class="sgr-kicker">CURATED VIDEOS</span>
+        <h2>精选视频：<span>女性成长影像</span>本周片单</h2>
+        <p class="sgr-section-sub">编辑部从本周上线作品中挑出 5 支，覆盖经验分享、人物访谈、实用技巧与治愈影像。每支均为原创正版高清内容，标注真实数据，欢迎收藏与讨论。</p>
+      </div>
+      <button class="sgr-btn sgr-btn-ghost" id="sgrRandomPick">换一批灵感</button>
+    </div>
+
+    <div class="sgr-video-list" id="sgrVideoList">
+      <article class="sgr-video-item">
+        <div class="sgr-video-thumb">
+          <img alt="职场女性在会议室白板前讲解项目进度流程图" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23e7f3ef'/%3E%3Crect x='30' y='30' width='200' height='130' rx='8' fill='%23ffffff'/%3E%3Crect x='46' y='48' width='120' height='10' rx='5' fill='%233f8f7e'/%3E%3Crect x='46' y='70' width='168' height='8' rx='4' fill='%23a9cfc4'/%3E%3Crect x='46' y='88' width='140' height='8' rx='4' fill='%23a9cfc4'/%3E%3Crect x='46' y='106' width='156' height='8' rx='4' fill='%23cfe6df'/%3E%3Ccircle cx='350' cy='105' r='56' fill='%233f8f7e' opacity='.85'/%3E%3Ccircle cx='350' cy='105' r='28' fill='%23e7f3ef'/%3E%3Cpath d='M300 230 q50 -60 120 -10' stroke='%233f8f7e' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" width="480" height="270">
+          <span class="play" aria-hidden="true">▶</span>
+        </div>
+        <div class="sgr-video-body">
+          <div class="sgr-tags"><span class="sgr-tag">职场日常</span><span class="sgr-tag sgr-tag-alt">经验分享</span></div>
+          <h3><a href="#sgrVideo">从不敢发言到主持评审会：我用 90 天练了 3 个动作</a></h3>
+          <p>把「在会上说不出话」拆成可训练的环节：会前 10 分钟写三句话、会中先接他人观点再补自己的判断、会后单独复盘一句。附一份可直接打印的发言准备卡。</p>
+          <div class="sgr-video-meta"><span class="author">作者：林知夏</span><span>播放 32.6 万</span><span class="sgr-like-count" data-count="8642">点赞 8642</span><span class="sgr-fav-count" data-count="2310">收藏 2310</span></div>
+          <div class="sgr-video-ops">
+            <button class="sgr-op sgr-like-btn">点赞</button>
+            <button class="sgr-op sgr-fav-btn">收藏</button>
+            <button class="sgr-op sgr-copy-btn">复制链接</button>
+            <button class="sgr-op sgr-report-btn">举报</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sgr-video-item">
+        <div class="sgr-video-thumb">
+          <img alt="女性创始人深夜在烘焙工作室整理面包出炉架" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23fbeedb'/%3E%3Crect x='0' y='190' width='480' height='80' fill='%23e8cfa8'/%3E%3Crect x='40' y='90' width='150' height='100' rx='8' fill='%23c9973f' opacity='.85'/%3E%3Ccircle cx='115' cy='140' r='30' fill='%23fbeedb'/%3E%3Crect x='230' y='70' width='190' height='120' rx='10' fill='%23ffffff' opacity='.9'/%3E%3Crect x='250' y='94' width='120' height='10' rx='5' fill='%23c9973f'/%3E%3Crect x='250' y='116' width='150' height='8' rx='4' fill='%23e6cfa9'/%3E%3Crect x='250' y='134' width='100' height='8' rx='4' fill='%23e6cfa9'/%3E%3Ccircle cx='390' cy='200' r='34' fill='%23c04a6e' opacity='.7'/%3E%3C/svg%3E" width="480" height="270">
+          <span class="play" aria-hidden="true">▶</span>
+        </div>
+        <div class="sgr-video-body">
+          <div class="sgr-tags"><span class="sgr-tag">人物访谈</span><span class="sgr-tag sgr-tag-alt">品牌故事</span></div>
+          <h3><a href="#sgrVideo">34 岁关掉门店再开一家：她的烘焙创业第二次复盘</a></h3>
+          <p>第一次开店亏了 11 万，第二次她只做三件事：只卖 6 款产品、把出品时间固定在上午、每周留一天不营业做研发。访谈里她讲了最难的那一年怎么撑过来。</p>
+          <div class="sgr-video-meta"><span class="author">作者：周予安</span><span>播放 21.4 万</span><span class="sgr-like-count" data-count="6120">点赞 6120</span><span class="sgr-fav-count" data-count="1874">收藏 1874</span></div>
+          <div class="sgr-video-ops">
+            <button class="sgr-op sgr-like-btn">点赞</button>
+            <button class="sgr-op sgr-fav-btn">收藏</button>
+            <button class="sgr-op sgr-copy-btn">复制链接</button>
+            <button class="sgr-op sgr-report-btn">举报</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sgr-video-item">
+        <div class="sgr-video-thumb">
+          <img alt="女性在清晨公园跑道边做拉伸并记录训练数据" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23dfeaf0'/%3E%3Ccircle cx='380' cy='70' r='46' fill='%23ffd9a8'/%3E%3Cpath d='M0 210 q120 -60 240 -10 q120 50 240 -10 l0 80 l-480 0 z' fill='%237ba8c4' opacity='.7'/%3E%3Crect x='70' y='150' width='14' height='70' rx='7' fill='%233f6f8f'/%3E%3Ccircle cx='77' cy='138' r='20' fill='%233f6f8f'/%3E%3Cpath d='M77 158 l-26 40 M77 158 l26 40 M77 170 l0 40' stroke='%233f6f8f' stroke-width='8' stroke-linecap='round' fill='none'/%3E%3Crect x='190' y='80' width='130' height='90' rx='10' fill='%23ffffff' opacity='.9'/%3E%3Cpath d='M206 150 l30 -34 l26 22 l30 -42' stroke='%23c04a6e' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" width="480" height="270">
+          <span class="play" aria-hidden="true">▶</span>
+        </div>
+        <div class="sgr-video-body">
+          <div class="sgr-tags"><span class="sgr-tag">健康运动</span><span class="sgr-tag sgr-tag-alt">实用技巧</span></div>
+          <h3><a href="#sgrVideo">产后 18 个月重返跑道：一份不激进的三阶段计划</a></h3>
+          <p>不做极限挑战，只做时间表。第一阶段恢复核心与步态，第二阶段每周两次低强度慢跑，第三阶段加入配速与力量。她把自己 18 周的记录原样贴出来，包括三次中断。</p>
+          <div class="sgr-video-meta"><span class="author">作者：苏晚晴</span><span>播放 18.9 万</span><span class="sgr-like-count" data-count="5433">点赞 5433</span><span class="sgr-fav-count" data-count="2077">收藏 2077</span></div>
+          <div class="sgr-video-ops">
+            <button class="sgr-op sgr-like-btn">点赞</button>
+            <button class="sgr-op sgr-fav-btn">收藏</button>
+            <button class="sgr-op sgr-copy-btn">复制链接</button>
+            <button class="sgr-op sgr-report-btn">举报</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sgr-video-item">
+        <div class="sgr-video-thumb">
+          <img alt="手工艺人在灯下整理陶土与拉坯工具" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23f2e6d8'/%3E%3Ccircle cx='360' cy='80' r='54' fill='%23ecc57e' opacity='.8'/%3E%3Crect x='0' y='200' width='480' height='70' fill='%23d8bfa0'/%3E%3Cpath d='M120 200 q-6 -60 44 -60 q50 0 44 60 z' fill='%23b07a52'/%3E%3Cpath d='M150 200 q-4 -34 28 -34 q32 0 28 34 z' fill='%23e8cfa8'/%3E%3Crect x='240' y='120' width='120' height='80' rx='8' fill='%23ffffff' opacity='.85'/%3E%3Crect x='256' y='140' width='80' height='8' rx='4' fill='%23b07a52'/%3E%3Crect x='256' y='158' width='60' height='8' rx='4' fill='%23d8bfa0'/%3E%3Crect x='256' y='176' width='70' height='8' rx='4' fill='%23d8bfa0'/%3E%3C/svg%3E" width="480" height="270">
+          <span class="play" aria-hidden="true">▶</span>
+        </div>
+        <div class="sgr-video-body">
+          <div class="sgr-tags"><span class="sgr-tag">手作 DIY</span><span class="sgr-tag sgr-tag-alt">创作幕后</span></div>
+          <h3><a href="#sgrVideo">杯子做坏了 27 个之后：陶艺新手的第一年</a></h3>
+          <p>从拉坯到上釉，她保留每一次失败的成品。视频最后把所有坏杯子排成一排，讲清一个道理：手作的进步不在成品率，而在你还能不能坐下第 28 次。</p>
+          <div class="sgr-video-meta"><span class="author">作者：许弥生</span><span>播放 15.2 万</span><span class="sgr-like-count" data-count="4712">点赞 4712</span><span class="sgr-fav-count" data-count="1633">收藏 1633</span></div>
+          <div class="sgr-video-ops">
+            <button class="sgr-op sgr-like-btn">点赞</button>
+            <button class="sgr-op sgr-fav-btn">收藏</button>
+            <button class="sgr-op sgr-copy-btn">复制链接</button>
+            <button class="sgr-op sgr-report-btn">举报</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="sgr-video-item">
+        <div class="sgr-video-thumb">
+          <img alt="乡村女教师在黑板前为孩子们讲解自然课" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23e9efe0'/%3E%3Crect x='40' y='40' width='280' height='160' rx='8' fill='%233f5f46'/%3E%3Crect x='40' y='40' width='280' height='160' rx='8' fill='none' stroke='%23a58a5a' stroke-width='8'/%3E%3Cpath d='M70 150 q40 -50 80 0 q40 -50 80 0' stroke='%23f2f6ea' stroke-width='5' fill='none'/%3E%3Ccircle cx='300' cy='200' r='16' fill='%23c04a6e'/%3E%3Crect x='350' y='90' width='90' height='120' rx='8' fill='%23ffffff' opacity='.85'/%3E%3Crect x='366' y='110' width='58' height='8' rx='4' fill='%233f8f7e'/%3E%3Crect x='366' y='128' width='44' height='8' rx='4' fill='%23a9cfc4'/%3E%3Crect x='366' y='146' width='52' height='8' rx='4' fill='%23a9cfc4'/%3E%3C/svg%3E" width="480" height="270">
+          <span class="play" aria-hidden="true">▶</span>
+        </div>
+        <div class="sgr-video-body">
+          <div class="sgr-tags"><span class="sgr-tag">情感故事</span><span class="sgr-tag sgr-tag-alt">治愈影像</span></div>
+          <h3><a href="#sgrVideo">在村小教书的第五年：我学会不急着给答案</a></h3>
+          <p>一个孩子问「为什么山外面还是山」，她没有讲标准答案，而是带全班去看地形模型、画地图、采访老人。她说，教育的耐心，藏在愿意多绕的那几步路里。</p>
+          <div class="sgr-video-meta"><span class="author">作者：程南枝</span><span>播放 27.1 万</span><span class="sgr-like-count" data-count="7820">点赞 7820</span><span class="sgr-fav-count" data-count="2510">收藏 2510</span></div>
+          <div class="sgr-video-ops">
+            <button class="sgr-op sgr-like-btn">点赞</button>
+            <button class="sgr-op sgr-fav-btn">收藏</button>
+            <button class="sgr-op sgr-copy-btn">复制链接</button>
+            <button class="sgr-op sgr-report-btn">举报</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S4 专题企划 ========== -->
+<section class="sgr-section sgr-anchor" id="sgrSpecial">
+  <div class="sgr-wrap">
+    <div class="sgr-section-head">
+      <div>
+        <span class="sgr-kicker">FEATURES</span>
+        <h2>专题企划：<span>女性成长影像</span>的主题策展</h2>
+        <p class="sgr-section-sub">每个专题由编辑部与创作者共同策划，持续更新。专题不是合集，而是一条被整理过的路径：从别人的经历里，找到自己可以动手的那一步。</p>
+      </div>
+    </div>
+
+    <div class="sgr-special-grid">
+      <div class="sgr-special-main">
+        <img alt="四位女性围坐长桌分享笔记本与相机进行专题策划" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f7e4ec'/%3E%3Crect x='60' y='230' width='520' height='90' rx='12' fill='%23e7c3d2'/%3E%3Ccircle cx='160' cy='180' r='42' fill='%23c04a6e' opacity='.85'/%3E%3Ccircle cx='160' cy='180' r='20' fill='%23fdeef3'/%3E%3Ccircle cx='300' cy='160' r='42' fill='%238f2c4c' opacity='.8'/%3E%3Ccircle cx='300' cy='160' r='20' fill='%23fdeef3'/%3E%3Ccircle cx='440' cy='180' r='42' fill='%233f8f7e' opacity='.85'/%3E%3Ccircle cx='440' cy='180' r='20' fill='%23e7f3ef'/%3E%3Crect x='200' y='250' width='60' height='42' rx='6' fill='%23ffffff'/%3E%3Crect x='290' y='256' width='70' height='36' rx='6' fill='%23ffffff'/%3E%3Crect x='390' y='250' width='56' height='42' rx='6' fill='%23ffffff'/%3E%3Crect x='480' y='256' width='70' height='36' rx='6' fill='%23ffffff'/%3E%3C/svg%3E" width="640" height="360">
+        <div class="sgr-special-main-body">
+          <span class="sgr-status sgr-status-hot">更新中 · 已上线 4 集</span>
+          <h3>《她的第一次》：所有成长都有第一次</h3>
+          <p>第一次独自租房、第一次谈判加薪、第一次公开演讲、第一次拒绝。专题用 12 支短片，记录女性在关键节点上的真实准备与手忙脚乱，每集附一份可下载的行动清单。</p>
+          <ul class="sgr-mini-list" style="margin-top:10px">
+            <li>第 1 集 · 第一次独自租房：签合同前必须问清的 9 个问题</li>
+            <li>第 2 集 · 第一次谈加薪：把「我想要」换成「我承担」</li>
+            <li>第 3 集 · 第一次独自旅行：在 3 座城市拍下 47 段素材</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sgr-special-list">
+        <div class="sgr-special-card">
+          <span class="sgr-status">长期企划 · 每周三更新</span>
+          <h3>她的厨房深夜档</h3>
+          <p>以食物为线索的女性生活记录。做一顿饭的时间，聊清楚一个具体困扰：加班后的晚饭怎么省时不将就、一个人住怎么吃得像样。</p>
+          <ul class="sgr-mini-list">
+            <li>20 分钟一锅出：三种常备食材的轮换方案</li>
+            <li>一个人住也要好好吃饭的 5 个习惯</li>
+            <li>给晚归的自己留一盏灯和一碗汤</li>
+          </ul>
+        </div>
+
+        <div class="sgr-special-card">
+          <span class="sgr-status">报名中 · 12 月开营</span>
+          <h3>她光创作者扶持计划</h3>
+          <p>面向没有影像经验的女性素人创作者，提供拍摄培训、设备借用与选题共研。本期开放 60 个名额，官方不收取任何费用，作品进入正版片库后按播放结算。</p>
+          <ul class="sgr-mini-list">
+            <li>4 周基础训练：构图、收音、叙事结构</li>
+            <li>1 对 1 选题会与粗剪反馈</li>
+            <li>结营作品进入「新人首映」专区</li>
+          </ul>
+        </div>
+
+        <div class="sgr-special-card">
+          <span class="sgr-status">已完结 · 可完整回看</span>
+          <h3>县域女性的十二种职业</h3>
+          <p>离开大城市不等于退场。专题走访 12 位在县城工作的女性：兽医、民宿主理人、快递站合伙人、乡村医生，记录她们的收入结构、时间安排与真实选择。</p>
+          <ul class="sgr-mini-list">
+            <li>县城开民宿的第三年：旺季与淡季怎么算账</li>
+            <li>28 岁乡村兽医：出诊路上的 2000 公里</li>
+            <li>快递站女合伙人：把一件小事做成稳定生意</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S5 创作者矩阵（双列简介） ========== -->
+<section class="sgr-section sgr-alt sgr-anchor" id="sgrAuthors">
+  <div class="sgr-wrap">
+    <div class="sgr-section-head">
+      <div>
+        <span class="sgr-kicker">CREATORS</span>
+        <h2>创作者矩阵：<span>女性成长影像</span>背后的她们</h2>
+        <p class="sgr-section-sub">平台签约与入驻创作者共 316 位，以下为本期重点推荐的 5 位。她们分处不同领域，共同点是：愿意把过程中的犹豫也拍下来。</p>
+      </div>
+    </div>
+
+    <div class="sgr-authors">
+      <article class="sgr-author">
+        <div class="sgr-avatar sgr-avatar-1">林</div>
+        <div>
+          <h3>林知夏 <span>职场成长</span></h3>
+          <div class="sgr-author-data">作品 86 支 · 粉丝 42.6 万</div>
+          <p>前互联网公司项目经理，现为全职创作者。擅长把职场里说不清的事拆成可操作的动作，视频节奏克制、信息密度高。她坚持每条视频给出一份可直接使用的清单，被观众称为「最不像鸡汤的职场博主」。</p>
+          <a class="sgr-author-more sgr-author-link" href="#sgrAuthors" data-author="林知夏">查看作者档案 →</a>
+        </div>
+      </article>
+
+      <article class="sgr-author">
+        <div class="sgr-avatar sgr-avatar-2">周</div>
+        <div>
+          <h3>周予安 <span>创业记录</span></h3>
+          <div class="sgr-author-data">作品 54 支 · 粉丝 28.9 万</div>
+          <p>烘焙品牌主理人，两次创业，一次失败一次存活。她的视频几乎不剪掉狼狈的部分：算错的成本、卖不完的库存、凌晨三点的返工。她说拍摄本身就是复盘，公开账目比讲道理更有说服力。</p>
+          <a class="sgr-author-more sgr-author-link" href="#sgrAuthors" data-author="周予安">查看作者档案 →</a>
+        </div>
+      </article>
+
+      <article class="sgr-author">
+        <div class="sgr-avatar sgr-avatar-3">苏</div>
+        <div>
+          <h3>苏晚晴 <span>健康运动</span></h3>
+          <div class="sgr-author-data">作品 67 支 · 粉丝 35.4 万</div>
+          <p>产后康复教练，两个孩子的母亲。她的内容不谈自律神话，只讲可执行的强度与频率，并公开自己的中断记录。她相信运动的意义是让人重新掌握身体，而不是制造新的焦虑。</p>
+          <a class="sgr-author-more sgr-author-link" href="#sgrAuthors" data-author="苏晚晴">查看作者档案 →</a>
+        </div>
+      </article>
+
+      <article class="sgr-author">
+        <div class="sgr-avatar sgr-avatar-4">许</div>
+        <div>
+          <h3>许弥生 <span>手作美学</span></h3>
+          <div class="sgr-author-data">作品 39 支 · 粉丝 19.7 万</div>
+          <p>陶艺与织物创作者，工作室在城郊老厂房里。她的视频常用长镜头，让观众听见拉坯机的转动与水声。她说手作最诚实的部分就是失败率，所以愿意把做坏的东西留下来一起拍。</p>
+          <a class="sgr-author-more sgr-author-link" href="#sgrAuthors" data-author="许弥生">查看作者档案 →</a>
+        </div>
+      </article>
+
+      <article class="sgr-author">
+        <div class="sgr-avatar sgr-avatar-5">程</div>
+        <div>
+          <h3>程南枝 <span>教育观察</span></h3>
+          <div class="sgr-author-data">作品 45 支 · 粉丝 23.2 万</div>
+          <p>乡村小学教师，教龄五年。她的影像多拍摄于课堂与放学路上，画面朴素却耐心。她关注孩子如何提问，也关注老师如何忍住不给标准答案，内容常被教育从业者转作培训素材。</p>
+          <a class="sgr-author-more sgr-author-link" href="#sgrAuthors" data-author="程南枝">查看作者档案 →</a>
+        </div>
+      </article>
+
+      <article class="sgr-author">
+        <div class="sgr-avatar sgr-avatar-1">叶</div>
+        <div>
+          <h3>叶拾一 <span>城市探索</span></h3>
+          <div class="sgr-author-data">作品 58 支 · 粉丝 26.1 万</div>
+          <p>城市影像记录者，专注拍摄老街区里的女性小店。她习惯在同一地点连拍三年，用时间差呈现变化。她的作品被多家本地文化机构收藏，用于城市记忆档案。</p>
+          <a class="sgr-author-more sgr-author-link" href="#sgrAuthors" data-author="叶拾一">查看作者档案 →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S6 评价 + 榜单 ========== -->
+<section class="sgr-section sgr-anchor" id="sgrEval">
+  <div class="sgr-wrap">
+    <div class="sgr-section-head">
+      <div>
+        <span class="sgr-kicker">VOICES</span>
+        <h2>口碑评价与<span>女性成长影像</span>热度榜</h2>
+        <p class="sgr-section-sub">评价来自真实观看与收藏行为，不做筛选美化；榜单按近 30 天播放、完播与收藏综合计算，每周一更新。</p>
+      </div>
+    </div>
+
+    <div class="sgr-eval-grid">
+      <div class="sgr-eval-list">
+        <article class="sgr-eval">
+          <div class="sgr-eval-head"><b>青禾</b><span class="sgr-stars">★★★★★</span><span>职场新人 · 观看 41 支</span></div>
+          <p>「发言准备卡」那一期我打印出来贴在了工位上。第二周真的用上了，虽然还是紧张，但至少知道从哪里开口。这是我第一次觉得职场视频不是在贩卖焦虑。</p>
+        </article>
+        <article class="sgr-eval">
+          <div class="sgr-eval-head"><b>阿棠</b><span class="sgr-stars">★★★★☆</span><span>全职照护者 · 观看 63 支</span></div>
+          <p>半夜喂完奶看她们拍做饭、拍跑步，有一种被人陪着的感觉。内容几乎不怎么煽情，就是安安静静把事做完，反而让我第二天愿意起床收拾厨房。</p>
+        </article>
+        <article class="sgr-eval">
+          <div class="sgr-eval-head"><b>木木妈妈</b><span class="sgr-stars">★★★★★</span><span>两个孩子的母亲</span></div>
+          <p>喜欢苏晚晴的一点是她会说自己中断了三次。很多运动视频只给你看结果，她会告诉你哪里会想放弃，这对我来说比计划表更实用。</p>
+        </article>
+        <article class="sgr-eval">
+          <div class="sgr-eval-head"><b>沈叙</b><span class="sgr-stars">★★★★☆</span><span>高校教师 · 用于课堂</span></div>
+          <p>我把程老师的乡村教育片段用在教师培训课上，学生讨论得很久。画质不算华丽，但信息真实、细节完整，作为教学材料很难得，也希望片库继续保持高清与正版标准。</p>
+        </article>
+        <article class="sgr-eval">
+          <div class="sgr-eval-head"><b>豆沙包</b><span class="sgr-stars">★★★★★</span><span>手作爱好者</span></div>
+          <p>许弥生的失败合集看了两遍。第一次笑，第二次有点想哭。做坏 27 个杯子还能坐下第 28 次，这句话我记了很久，现在我的绣片也堆了一抽屉。</p>
+        </article>
+        <article class="sgr-eval">
+          <div class="sgr-eval-head"><b>刘一勺</b><span class="sgr-stars">★★★☆☆</span><span>创业第二年</span></div>
+          <p>创业访谈给的建议偏稳妥，对已经亏损的经营者帮助有限，希望能多做几期现金流吃紧时的应对。给三星不是内容不好，是期待更狠一点的实战细节。</p>
+        </article>
+        <article class="sgr-eval">
+          <div class="sgr-eval-head"><b>蓝鲸</b><span class="sgr-stars">★★★★★</span><span>县域创业者</span></div>
+          <p>看县域女性职业专题时，第一次有人认真拍我们这种小地方的生意。没有滤镜式的苦难，也没有夸张的成功学，账目和时间安排讲得很实在。</p>
+        </article>
+      </div>
+
+      <aside class="sgr-rank">
+        <h3>本周热度榜</h3>
+        <div class="sgr-rank-tabs" id="sgrRankTabs">
+          <button class="sgr-rank-tab is-on" data-rank="hot">热度榜</button>
+          <button class="sgr-rank-tab" data-rank="new">新人榜</button>
+          <button class="sgr-rank-tab" data-rank="praise">口碑榜</button>
+        </div>
+        <ol class="sgr-rank-list" id="sgrRankList">
+          <li><span class="sgr-rank-no">01</span><span>从不敢发言到主持评审会</span><small>32.6万播放</small></li>
+          <li><span class="sgr-rank-no">02</span><span>在村小教书的第五年</span><small>27.1万播放</small></li>
+          <li><span class="sgr-rank-no">03</span><span>34 岁关掉门店再开一家</span><small>21.4万播放</small></li>
+          <li><span class="sgr-rank-no">04</span><span>产后 18 个月重返跑道</span><small>18.9万播放</small></li>
+          <li><span class="sgr-rank-no">05</span><span>杯子做坏了 27 个之后</span><small>15.2万播放</small></li>
+          <li><span class="sgr-rank-no">06</span><span>一个人住的深夜厨房</span><small>13.8万播放</small></li>
+        </ol>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S7 辅助区：企业动态 / 合作品牌 / FAQ ========== -->
+<section class="sgr-section sgr-alt sgr-anchor" id="sgrAssist">
+  <div class="sgr-wrap">
+    <div class="sgr-section-head">
+      <div>
+        <span class="sgr-kicker">BRAND &amp; SUPPORT</span>
+        <h2>企业动态、合作伙伴与<span>女性成长影像</span>答疑</h2>
+        <p class="sgr-section-sub">品牌动态由官方发布，合作与帮助信息同步更新。若你关心版权、投稿或使用规范，可直接在下方 FAQ 展开查看。</p>
+      </div>
+    </div>
+
+    <div class="sgr-three">
+      <div class="sgr-panel">
+        <h2>企业动态</h2>
+        <p class="sgr-panel-sub">官方发布 · 持续运营记录</p>
+        <ul class="sgr-news">
+          <li>
+            <time>2026-11-18</time>
+            <h3>冬季创作者扶持计划开放报名</h3>
+            <p>面向无影像经验的女性素人，60 个名额，含 4 周培训与设备借用，报名截至 12 月 5 日。</p>
+          </li>
+          <li>
+            <time>2026-11-10</time>
+            <h3>高清片库完成第二轮画质升级</h3>
+            <p>1,240 支早期作品重新压制为 1080P，并补齐字幕与章节标记，检索速度提升约 40%。</p>
+          </li>
+          <li>
+            <time>2026-10-29</time>
+            <h3>《县域女性的十二种职业》完结</h3>
+            <p>专题共 12 集，累计播放 486 万，影像包已向三家公益机构开放非商业使用授权。</p>
+          </li>
+          <li>
+            <time>2026-10-12</time>
+            <h3>社区评分机制新增「情绪分寸」维度</h3>
+            <p>引导创作者避免制造焦虑式表达，评分数据对观众公开，低分作品可获得二次修改建议。</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sgr-panel">
+        <h2>合作伙伴</h2>
+        <p class="sgr-panel-sub">内容共创与公益协作</p>
+        <div class="sgr-partners">
+          <div class="sgr-partner"><b>城市记忆档案馆</b>影像授权合作</div>
+          <div class="sgr-partner"><b>青苗教育基金</b>乡村教育影像包</div>
+          <div class="sgr-partner"><b>她行职业发展中心</b>职场课程共创</div>
+          <div class="sgr-partner"><b>山野影像工作室</b>拍摄技术支持</div>
+          <div class="sgr-partner"><b>邻里社区服务中心</b>公益放映计划</div>
+          <div class="sgr-partner"><b>拾光手作联盟</b>手艺专题联合策划</div>
+        </div>
+      </div>
+
+      <div class="sgr-panel sgr-faq">
+        <h2>常见问题</h2>
+        <p class="sgr-panel-sub">投稿、版权与观看说明</p>
+        <details>
+          <summary>如何向平台投稿？</summary>
+          <p>点击页头或页面底部的「投稿」按钮填写表单，说明选题、时长与拍摄计划。编辑部在 3 个工作日内回复，通过后会安排选题会与制作支持。</p>
+        </details>
+        <details>
+          <summary>投稿作品需要独家吗？</summary>
+          <p>不需要独家。我们只要求作品为原创且拥有合法版权，若已在其他平台发布，请注明首发时间。进入片库后可按约定获得播放结算与推广资源。</p>
+        </details>
+        <details>
+          <summary>平台收取费用吗？</summary>
+          <p>不收取。创作者扶持计划、培训与设备借用均由平台承担成本，官方不会以任何名义向创作者收取报名费或保证金。</p>
+        </details>
+        <details>
+          <summary>视频可以转载或用于教学吗？</summary>
+          <p>非商业教学场景可在保留署名与来源说明的前提下申请授权；商业用途需单独联系。片库大部分作品提供高清下载与字幕文件，申请后 5 个工作日内处理。</p>
+        </details>
+        <details>
+          <summary>为什么有的作品评分不高？</summary>
+          <p>社区评分包含真实度、可学性与情绪分寸三个维度。低分多因信息不完整或表达方式引发不适，我们会给出修改建议，而不是直接下架。</p>
+        </details>
+        <details>
+          <summary>如何加入创作者社群？</summary>
+          <p>通过任意视频页的关注或投稿入口留下联系方式，工作人员会邀请加入月度选题会。社群每月举办一次线上交流与一次作品互评。</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 投稿 CTA（S7 辅助区延伸） ========== -->
+<section class="sgr-section sgr-anchor" id="sgrSubmit">
+  <div class="sgr-wrap">
+    <div class="sgr-cta">
+      <div>
+        <h2>把你的故事交给镜头，也交给愿意看的人</h2>
+        <p>她光影像官方网站长期开放投稿：不需要专业设备，不需要完美脚本，只需要一件你真实经历过的事。通过审核的作品将进入原创片库，获得高清制作支持与社区推荐。</p>
+      </div>
+      <div class="sgr-cta-actions">
+        <button class="sgr-btn sgr-btn-light" id="sgrCtaSubmit">立即投稿</button>
+        <button class="sgr-btn sgr-btn-line" id="sgrCtaContact">联系编辑部</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ========== S8 页脚 ========== -->
+<footer class="sgr-footer">
+  <div class="sgr-wrap">
+    <div class="sgr-footer-grid">
+      <div>
+        <div class="sgr-logo" style="margin-bottom:10px">
+          <span class="sgr-logo-mark">她</span>
+          <span>
+            <span class="sgr-logo-text">她光影像</span>
+            <span class="sgr-logo-sub">SHEGLOW OFFICIAL</span>
+          </span>
+        </div>
+        <p>她光影像官方网站 · 女性成长影像品牌。我们以原创、正版、高清为底线，深耕女性成长垂直领域，持续运营内容生态，为创作者与观众搭建值得信赖的社区。</p>
+        <p style="margin-top:8px">合作邮箱：hello@sheglow-media.cn<br>编辑部长信箱：editor@sheglow-media.cn</p>
+      </div>
+      <div>
+        <h3>内容</h3>
+        <ul>
+          <li><a href="#sgrVideo">精选视频</a></li>
+          <li><a href="#sgrSpecial">专题企划</a></li>
+          <li><a href="#sgrAuthors">创作者矩阵</a></li>
+          <li><a href="#sgrEval">热度榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>关于</h3>
+        <ul>
+          <li><a href="#sgrExplain">品牌解读</a></li>
+          <li><a href="#sgrAssist">企业动态</a></li>
+          <li><a href="#sgrAssist">合作伙伴</a></li>
+          <li><a href="#sgrAssist">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>参与</h3>
+        <ul>
+          <li><a href="#sgrSubmit">作品投稿</a></li>
+          <li><a href="#sgrSpecial">扶持计划报名</a></li>
+          <li><a href="#sgrSubmit">版权与授权</a></li>
+          <li><a href="#sgrAssist">社区公约</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="sgr-footer-bottom">
+      <span>© 2019–2026 她光影像（SheGlow Media） 版权所有 · 官方网站持续运营中</span>
+      <span>内容备案：影像内容许可 2026-SG-0142 · 广播电视节目制作经营许可（2021）第 0837 号</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== 弹窗与提示 ========== -->
+<div class="sgr-modal-mask" id="sgrModalMask">
+  <div class="sgr-modal" id="sgrModalBox" role="dialog" aria-modal="true"></div>
+</div>
+<div class="sgr-toast" id="sgrToast" role="status"></div>
+<button class="sgr-top-btn" id="sgrTopBtn" aria-label="回到顶部">↑</button>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- 通用提示 ---------- */
+  var toastEl = document.getElementById("sgrToast");
+  var toastTimer = null;
+  function showToast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add("is-on");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toastEl.classList.remove("is-on");
+    }, 2200);
+  }
+
+  /* ---------- 公告条关闭 ---------- */
+  var announceClose = document.getElementById("sgrAnnounceClose");
+  if (announceClose) {
+    announceClose.addEventListener("click", function () {
+      document.getElementById("sgrAnnounce").style.display = "none";
+    });
+  }
+
+  /* ---------- 移动端导航 ---------- */
+  var menuToggle = document.getElementById("sgrMenuToggle");
+  var nav = document.getElementById("sgrNav");
+  if (menuToggle && nav) {
+    menuToggle.addEventListener("click", function () {
+      var open = nav.classList.toggle("is-open");
+      menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    nav.addEventListener("click", function (e) {
+      if (e.target.tagName === "A") {
+        nav.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
+  /* ---------- 搜索前端反馈 ---------- */
+  var searchInput = document.getElementById("sgrSearchInput");
+  var searchBtn = document.getElementById("sgrSearchBtn");
+  var searchFeedback = document.getElementById("sgrSearchFeedback");
+  var searchIndex = [
+    "从不敢发言到主持评审会 · 林知夏",
+    "34 岁关掉门店再开一家 · 周予安",
+    "产后 18 个月重返跑道 · 苏晚晴",
+    "杯子做坏了 27 个之后 · 许弥生",
+    "在村小教书的第五年 · 程南枝",
+    "《她的第一次》专题 · 更新中",
+    "县域女性的十二种职业 · 已完结",
+    "创作者扶持计划 · 报名中"
+  ];
+  function doSearch() {
+    var q = (searchInput.value || "").trim();
+    if (!q) {
+      searchFeedback.textContent = "输入关键词试试：职场、创业、运动、手作、教育、专题。";
+      searchFeedback.classList.add("is-on");
+      return;
+    }
+    var hits = searchIndex.filter(function (item) {
+      return item.indexOf(q) !== -1;
+    });
+    if (hits.length) {
+      searchFeedback.textContent = "找到 " + hits.length + " 条相关内容：" + hits.slice(0, 3).join("；");
+    } else {
+      searchFeedback.textContent = "暂未找到「" + q + "」的匹配内容，可尝试投稿板块提出你希望看到的选题。";
+    }
+    searchFeedback.classList.add("is-on");
+  }
+  if (searchBtn && searchInput) {
+    searchBtn.addEventListener("click", doSearch);
+    searchInput.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") { e.preventDefault(); doSearch(); }
+    });
+  }
+
+  /* ---------- 点赞 ---------- */
+  document.querySelectorAll(".sgr-like-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var card = btn.closest(".sgr-video-item");
+      var counter = card ? card.querySelector(".sgr-like-count") : null;
+      var base = counter ? parseInt(counter.getAttribute("data-count"), 10) : 0;
+      var active = btn.classList.toggle("is-active");
+      var next = active ? base + 1 : base;
+      if (counter) {
+        counter.setAttribute("data-count", String(next));
+        counter.textContent = "点赞 " + next;
+      }
+      showToast(active ? "已点赞，感谢支持原创内容" : "已取消点赞");
+    });
+  });
+
+  /* ---------- 收藏 ---------- */
+  document.querySelectorAll(".sgr-fav-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var card = btn.closest(".sgr-video-item");
+      var counter = card ? card.querySelector(".sgr-fav-count") : null;
+      var base = counter ? parseInt(counter.getAttribute("data-count"), 10) : 0;
+      var active = btn.classList.toggle("is-fav");
+      var next = active ? base + 1 : base;
+      if (counter) {
+        counter.setAttribute("data-count", String(next));
+        counter.textContent = "收藏 " + next;
+      }
+      showToast(active ? "已加入我的收藏" : "已从收藏中移除");
+    });
+  });
+
+  /* ---------- 复制链接 ---------- */
+  document.querySelectorAll(".sgr-copy-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var card = btn.closest(".sgr-video-item");
+      var titleEl = card ? card.querySelector("h3") : null;
+      var text = titleEl ? titleEl.textContent.trim() : "她光影像 · 女性成长影像";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          showToast("作品标题已复制，可分享给朋友");
+        }).catch(function () {
+          showToast("复制失败，请手动选中文字");
+        });
+      } else {
+        showToast("当前环境不支持自动复制，请手动选中文字");
+      }
+    });
+  });
+
+  /* ---------- 通用弹窗 ---------- */
+  var mask = document.getElementById("sgrModalMask");
+  var box = document.getElementById("sgrModalBox");
+  function openModal(html) {
+    box.innerHTML = html;
+    mask.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal() {
+    mask.classList.remove("is-open");
+    document.body.style.overflow = "";
+  }
+  mask.addEventListener("click", function (e) {
+    if (e.target === mask) closeModal();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeModal();
+  });
+  box.addEventListener("click", function (e) {
+    if (e.target.id === "sgrModalCloseBtn") closeModal();
+    if (e.target.id === "sgrModalOkBtn") {
+      closeModal();
+      showToast("已提交，感谢你的反馈");
+    }
+  });
+
+  /* ---------- 举报弹窗 ---------- */
+  document.querySelectorAll(".sgr-report-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      openModal(
+        '<h3>举报与反馈</h3>' +
+        '<p class="sgr-modal-sub">若你认为该作品存在版权、表达或信息问题，请说明具体情况，编辑部会在 3 个工作日内核查回复。</p>' +
+        '<label>作品标题<input type="text" value="' + (btn.closest(".sgr-video-item").querySelector("h3").textContent.trim()) + '" readonly></label>' +
+        '<label>问题类型<input type="text" placeholder="如：版权存疑 / 内容不适 / 信息有误"></label>' +
+        '<label>补充说明<textarea rows="3" placeholder="请描述具体位置与情况"></textarea></label>' +
+        '<div class="sgr-modal-actions"><button class="sgr-btn sgr-btn-ghost" id="sgrModalCloseBtn">取消</button><button class="sgr-btn sgr-btn-primary" id="sgrModalOkBtn">提交反馈</button></div>'
+      );
+    });
+  });
+
+  /* ---------- 作者档案弹窗 ---------- */
+  var authorData = {
+    "林知夏": "职场成长创作者，前互联网项目经理。作品 86 支，粉丝 42.6 万，擅长把抽象职场问题拆成可执行动作。代表作《从不敢发言到主持评审会》播放 32.6 万，被多家企业用于内部分享。",
+    "周予安": "烘焙品牌主理人，两次创业。作品 54 支，粉丝 28.9 万。她的内容坚持公开成本与失败细节，代表作《34 岁关掉门店再开一家》播放 21.4 万，评论区常见同行的账目讨论。",
+    "苏晚晴": "产后康复教练、两个孩子的母亲。作品 67 支，粉丝 35.4 万。她以可执行强度替代自律神话，公开自己的中断记录，代表作《产后 18 个月重返跑道》播放 18.9 万。",
+    "许弥生": "陶艺与织物创作者。作品 39 支，粉丝 19.7 万。长镜头记录手作过程与失败率，代表作《杯子做坏了 27 个之后》播放 15.2 万，被观众称为最有耐心的手作频道。",
+    "程南枝": "乡村小学教师，教龄五年。作品 45 支，粉丝 23.2 万。关注孩子如何提问与老师如何克制给答案，代表作《在村小教书的第五年》播放 27.1 万，常被教育从业者引用。",
+    "叶拾一": "城市影像记录者。作品 58 支，粉丝 26.1 万。连续三年拍摄同一条老街的女性小店，作品被本地文化机构收藏用于城市记忆档案。"
+  };
+  document.querySelectorAll(".sgr-author-link").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      var name = link.getAttribute("data-author") || "";
+      var desc = authorData[name] || "该作者档案正在整理中。";
+      openModal(
+        '<h3>' + name + ' · 创作者档案</h3>' +
+        '<p class="sgr-modal-sub">她光影像签约 / 入驻创作者 · 原创正版内容</p>' +
+        '<p style="font-size:14px;color:#6b5560;line-height:1.8">' + desc + '</p>' +
+        '<div class="sgr-modal-actions"><button class="sgr-btn sgr-btn-primary" id="sgrModalCloseBtn">关闭</button></div>'
+      );
+    });
+  });
+
+  /* ---------- 投稿弹窗 ---------- */
+  function openSubmitModal() {
+    openModal(
+      '<h3>作品投稿</h3>' +
+      '<p class="sgr-modal-sub">她光影像官方网站开放投稿，不限设备，原创优先。提交后 3 个工作日内回复。</p>' +
+      '<label>称呼<input type="text" placeholder="希望我们如何称呼你"></label>' +
+      '<label>联系方式<input type="text" placeholder="邮箱或常用社交账号"></label>' +
+      '<label>选题简述<textarea rows="3" placeholder="想拍什么、为什么想拍、大致时长"></textarea></label>' +
+      '<div class="sgr-modal-actions"><button class="sgr-btn sgr-btn-ghost" id="sgrModalCloseBtn">稍后再说</button><button class="sgr-btn sgr-btn-primary" id="sgrModalOkBtn">提交投稿</button></div>'
+    );
+  }
+  ["sgrSubmitBtn", "sgrCtaSubmit"].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) el.addEventListener("click", openSubmitModal);
+  });
+
+  /* ---------- 联系编辑部 ---------- */
+  var ctaContact = document.getElementById("sgrCtaContact");
+  if (ctaContact) {
+    ctaContact.addEventListener("click", function () {
+      openModal(
+        '<h3>联系编辑部</h3>' +
+        '<p class="sgr-modal-sub">工作日 10:00–19:00 回复。版权、投稿、合作与教学授权均可来信。</p>' +
+        '<p style="font-size:14px;line-height:2;color:#6b5560">编辑部邮箱：editor@sheglow-media.cn<br>商务与授权：hello@sheglow-media.cn<br>创作者扶持计划：creator@sheglow-media.cn</p>' +
+        '<div class="sgr-modal-actions"><button class="sgr-btn sgr-btn-primary" id="sgrModalCloseBtn">知道了</button></div>'
+      );
+    });
+  }
+
+  /* ---------- 分享 ---------- */
+  var shareHero = document.getElementById("sgrShareHero");
+  if (shareHero) {
+    shareHero.addEventListener("click", function () {
+      var text = "她光影像 · 女性成长影像官方视频社区：女性成长影像_记录真实自我_女性力量视频社区";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          showToast("分享文案已复制，可粘贴到微信、微博或 QQ");
+        }).catch(function () {
+          showToast("分享文案：女性成长影像 · 她光影像官方网站");
+        });
+      } else {
+        showToast("分享文案：女性成长影像 · 她光影像官方网站");
+      }
+    });
+  }
+
+  /* ---------- 热度榜切换 ---------- */
+  var rankData = {
+    hot: [
+      ["从不敢发言到主持评审会", "32.6万播放"],
+      ["在村小教书的第五年", "27.1万播放"],
+      ["34 岁关掉门店再开一家", "21.4万播放"],
+      ["产后 18 个月重返跑道", "18.9万播放"],
+      ["杯子做坏了 27 个之后", "15.2万播放"],
+      ["一个人住的深夜厨房", "13.8万播放"]
+    ],
+    "new": [
+      ["县城快递站女合伙人", "新人首映 · 8.2万播放"],
+      ["第一次独自租房", "新人首映 · 7.4万播放"],
+      ["把旧毛衣拆成新的线", "新人首映 · 6.6万播放"],
+      ["夜班护士的 24 小时", "新人首映 · 5.9万播放"],
+      ["在菜市场学讲价", "新人首映 · 5.1万播放"],
+      ["重新拿起画笔的第 30 天", "新人首映 · 4.7万播放"]
+    ],
+    praise: [
+      ["在村小教书的第五年", "口碑 4.9 / 5"],
+      ["杯子做坏了 27 个之后", "口碑 4.8 / 5"],
+      ["县域女性的十二种职业", "口碑 4.8 / 5"],
+      ["从不敢发言到主持评审会", "口碑 4.7 / 5"],
+      ["产后 18 个月重返跑道", "口碑 4.6 / 5"],
+      ["一个人住的深夜厨房", "口碑 4.6 / 5"]
+    ]
+  };
+  var rankTabs = document.querySelectorAll(".sgr-rank-tab");
+  var rankList = document.getElementById("sgrRankList");
+  rankTabs.forEach(function (tab) {
+    tab.addEventListener("click", function () {
+      rankTabs.forEach(function (t) { t.classList.remove("is-on"); });
+      tab.classList.add("is-on");
+      var key = tab.getAttribute("data-rank");
+      var rows = rankData[key] || [];
+      rankList.innerHTML = rows.map(function (row, i) {
+        var no = ("0" + (i + 1)).slice(-2);
+        return "<li><span class='sgr-rank-no'>" + no + "</span><span>" + row[0] + "</span><small>" + row[1] + "</small></li>";
+      }).join("");
+    });
+  });
+
+  /* ---------- 换一批灵感 ---------- */
+  var picks = [
+    "「通勤 40 分钟能听完的一期」：把选题做成播客式长视频",
+    "「同一天的两个版本」：记录工作日前后的生活对照",
+    "「工具与我」：一件用了三年以上的物品背后的故事",
+    "「第一次拒绝」：把一句难说的话练习十遍",
+    "「她的一天」：不加配乐的 120 秒真实记录"
+  ];
+  var randomPick = document.getElementById("sgrRandomPick");
+  if (randomPick) {
+    randomPick.addEventListener("click", function () {
+      showToast("灵感：" + picks[Math.floor(Math.random() * picks.length)]);
+    });
+  }
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById("sgrTopBtn");
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 560) {
+      topBtn.classList.add("is-on");
+    } else {
+      topBtn.classList.remove("is-on");
+    }
+  }, { passive: true });
+  topBtn.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+})();
+</script>
+</body>
+        </html>
